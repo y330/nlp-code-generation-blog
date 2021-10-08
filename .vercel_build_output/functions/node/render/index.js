@@ -57576,7 +57576,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module"
 });
-var template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/ics4u-isa/favicon.ico" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n\n	<body class=scroll__>\n		<div id="svelte">' + body + "</div>\n	</body>\n\n</html>";
+var template = ({ head, body }) => '<!DOCTYPE html>\n<html lang="en">\n\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/favicon.ico" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n\n	<body class=scroll__>\n		<div id="svelte">' + body + "</div>\n	</body>\n\n</html>";
 var options = null;
 var default_settings = { paths: { "base": "", "assets": "" } };
 function init(settings = default_settings) {
@@ -57587,9 +57587,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-a60422c1.js",
+      file: assets + "/_app/start-b4c5d2ff.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-a60422c1.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
+      js: [assets + "/_app/start-b4c5d2ff.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
     },
     fetched: void 0,
     floc: false,
@@ -57619,7 +57619,7 @@ function init(settings = default_settings) {
 var d = (s2) => s2.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "favicon.ico", "size": 1150, "type": "image/vnd.microsoft.icon" }, { "file": "robots.txt", "size": 67, "type": "text/plain" }],
+  assets: [{ "file": "chart.png", "size": 123629, "type": "image/png" }, { "file": "chatbot.png", "size": 90964, "type": "image/png" }, { "file": "copilot-demo.png", "size": 86172, "type": "image/png" }, { "file": "diagram.png", "size": 688657, "type": "image/png" }, { "file": "favicon.ico", "size": 1150, "type": "image/vnd.microsoft.icon" }, { "file": "illustration.png", "size": 333669, "type": "image/png" }, { "file": "intellisense-symbols.png", "size": 43030, "type": "image/png" }, { "file": "intellisense.gif", "size": 27596, "type": "image/gif" }, { "file": "limitations.png", "size": 92539, "type": "image/png" }, { "file": "nlp-tech.png", "size": 65308, "type": "image/png" }, { "file": "robots.txt", "size": 67, "type": "text/plain" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -57685,7 +57685,7 @@ var module_lookup = {
     return _slug_;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a45c6eca.js", "css": ["assets/pages/__layout.svelte-2f082c88.css"], "js": ["pages/__layout.svelte-a45c6eca.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-430e8fcd.js", "css": [], "js": ["error.svelte-430e8fcd.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-7a2655c8.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-7a2655c8.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-fe8bc76c.js", "css": [], "js": ["pages/about.svelte-fe8bc76c.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-d806b5e1.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-d806b5e1.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a45c6eca.js", "css": ["assets/pages/__layout.svelte-2f082c88.css"], "js": ["pages/__layout.svelte-a45c6eca.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-430e8fcd.js", "css": [], "js": ["error.svelte-430e8fcd.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-78617005.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-78617005.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-fe8bc76c.js", "css": [], "js": ["pages/about.svelte-fe8bc76c.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-d806b5e1.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-d806b5e1.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -57851,7 +57851,7 @@ var error = /* @__PURE__ */ Object.freeze({
 });
 var css$1 = {
   code: "h1.svelte-1i98gyn{margin-bottom:0}h2.title.svelte-1i98gyn{margin-top:32px;margin-bottom:0}h2.title.svelte-1i98gyn:hover{color:#40b3ff}p.svelte-1i98gyn{color:#555;margin:0}",
-  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \\"$app/paths\\";\\n\\n  export async function load({ fetch }) {\\n    const posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let posts;\\n<\/script>\\n\\n<svelte:head>\\n  <title>Home</title>\\n</svelte:head>\\n\\n<div>\\n  <h1\\n    style=\\"font-weight: 600; font-family: \'Gill Sans\', \'Gill Sans MT\', Calibri, \'Trebuchet MS\', sans-serif; padding-bottom: 2vw;\\"\\n  >\\n    NLP for Code Generation - ICS4U ISA\\n  </h1>\\n  <p class=\\"info\\">{posts.length} posts.</p>\\n  <img src=\\"img/illustration.png\\" alt=\\"illustration\\" />\\n  {#each posts as post}\\n    <a href={`${base}/${post.slug}`}>\\n      <h2 class=\\"title\\">{post.metadata.title}</h2>\\n      <p>{post.metadata.excerpt}</p>\\n    </a>\\n  {/each}\\n</div>\\n\\n<style lang=\\"scss\\">h1 {\\n  margin-bottom: 0;\\n}\\n\\nh2.title {\\n  margin-top: 32px;\\n  margin-bottom: 0;\\n}\\nh2.title:hover {\\n  color: #40b3ff;\\n}\\n\\np {\\n  color: #555;\\n  margin: 0;\\n}</style>\\n"],"names":[],"mappings":"AAmCmB,EAAE,eAAC,CAAC,AACrB,aAAa,CAAE,CAAC,AAClB,CAAC,AAED,EAAE,MAAM,eAAC,CAAC,AACR,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,CAAC,AAClB,CAAC,AACD,EAAE,qBAAM,MAAM,AAAC,CAAC,AACd,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,CAAC,eAAC,CAAC,AACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,AACX,CAAC"}'
+  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \\"$app/paths\\";\\n\\n  export async function load({ fetch }) {\\n    const posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let posts;\\n<\/script>\\n\\n<svelte:head>\\n  <title>Home</title>\\n</svelte:head>\\n\\n<div>\\n  <h1\\n    style=\\"font-weight: 600; font-family: \'Gill Sans\', \'Gill Sans MT\', Calibri, \'Trebuchet MS\', sans-serif; padding-bottom: 2vw;\\"\\n  >\\n    NLP for Code Generation - ICS4U ISA\\n  </h1>\\n  <p class=\\"info\\">{posts.length} posts.</p>\\n  <img src=\\"static/illustration.png\\" alt=\\"illustration\\" />\\n  {#each posts as post}\\n    <a href={`${base}/${post.slug}`}>\\n      <h2 class=\\"title\\">{post.metadata.title}</h2>\\n      <p>{post.metadata.excerpt}</p>\\n    </a>\\n  {/each}\\n</div>\\n\\n<style lang=\\"scss\\">h1 {\\n  margin-bottom: 0;\\n}\\n\\nh2.title {\\n  margin-top: 32px;\\n  margin-bottom: 0;\\n}\\nh2.title:hover {\\n  color: #40b3ff;\\n}\\n\\np {\\n  color: #555;\\n  margin: 0;\\n}</style>\\n"],"names":[],"mappings":"AAmCmB,EAAE,eAAC,CAAC,AACrB,aAAa,CAAE,CAAC,AAClB,CAAC,AAED,EAAE,MAAM,eAAC,CAAC,AACR,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,CAAC,AAClB,CAAC,AACD,EAAE,qBAAM,MAAM,AAAC,CAAC,AACd,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,CAAC,eAAC,CAAC,AACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,AACX,CAAC"}'
 };
 async function load$1({ fetch: fetch2 }) {
   const posts = await fetch2(`${base}/index.json`).then((r) => r.json());
@@ -57867,7 +57867,7 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <div><h1 style="${"font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-bottom: 2vw;"}" class="${"svelte-1i98gyn"}">NLP for Code Generation - ICS4U ISA
   </h1>
   <p class="${"info svelte-1i98gyn"}">${escape(posts.length)} posts.</p>
-  <img src="${"img/illustration.png"}" alt="${"illustration"}">
+  <img src="${"static/illustration.png"}" alt="${"illustration"}">
   ${each(posts, (post) => `<a${add_attribute("href", `${base}/${post.slug}`, 0)}><h2 class="${"title svelte-1i98gyn"}">${escape(post.metadata.title)}</h2>
       <p class="${"svelte-1i98gyn"}">${escape(post.metadata.excerpt)}</p>
     </a>`)}
@@ -57897,7 +57897,7 @@ var about = /* @__PURE__ */ Object.freeze({
 });
 var css = {
   code: "h1.title.svelte-1mgzh8t{margin-bottom:0}",
-  map: '{"version":3,"file":"[slug].svelte","sources":["[slug].svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \'$app/paths\';\\n\\n  export async function load({ page, fetch }) {\\n    const slug = page.params.slug;\\n    const post = await fetch(`${base}/${slug}.json`)\\n        .then((r) => r.json());\\n    return {\\n      props: { post }\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let post;\\n  let date = post.metadata.date.toUpperCase();\\n<\/script>\\n\\n<svelte:head>\\n  <title>{post.metadata.title}</title>\\n</svelte:head>\\n\\n<h1 class=\\"title\\">{post.metadata.title}</h1>\\n<p class=\\"info\\"><a href=\\"https://yonah.ml\\">Yonah Aviv</a> {date}</p>\\n{@html post.content}\\n\\n<style lang=\\"scss\\">h1.title {\\n  margin-bottom: 0;\\n}</style>"],"names":[],"mappings":"AA0BmB,EAAE,MAAM,eAAC,CAAC,AAC3B,aAAa,CAAE,CAAC,AAClB,CAAC"}'
+  map: '{"version":3,"file":"[slug].svelte","sources":["[slug].svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \'$app/paths\';\\n  export async function load({ page, fetch }) {\\n    const slug = page.params.slug;\\n    const post = await fetch(`${base}/${slug}.json`)\\n        .then((r) => r.json());\\n    return {\\n      props: { post }\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let post;\\n  let date = post.metadata.date.toUpperCase();\\n<\/script>\\n\\n<svelte:head>\\n  <title>{post.metadata.title}</title>\\n</svelte:head>\\n\\n<h1 class=\\"title\\">{post.metadata.title}</h1>\\n<p class=\\"info\\"><a href=\\"https://yonah.ml\\">Yonah Aviv</a> {date}</p>\\n{@html post.content}\\n\\n<style lang=\\"scss\\">h1.title {\\n  margin-bottom: 0;\\n}</style>"],"names":[],"mappings":"AAyBmB,EAAE,MAAM,eAAC,CAAC,AAC3B,aAAa,CAAE,CAAC,AAClB,CAAC"}'
 };
 async function load({ page, fetch: fetch2 }) {
   const slug = page.params.slug;

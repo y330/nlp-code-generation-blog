@@ -12,11 +12,10 @@ const config = {
 		// specifying a different adapter
 		adapter: vercel(),
 		// adapter: static_adapter(),
-
 		// Comment the paths if wants to run in dev mode.
 		paths: {
-			// base: '/ics4u-isa',
-			// assets: '/ics4u-isa'
+			// base: '',
+			// assets: './img/'
 		},
 
 		// hydrate the <div id="svelte"> element in src/app.html

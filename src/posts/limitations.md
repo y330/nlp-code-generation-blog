@@ -4,7 +4,7 @@ date: 2021-10-07
 excerpt: NLP Code Generation will never replace developers... or will it?
 ---
 
-![illustration](./img/limitations.png)
+![illustration](/limitations.png)
 
 _illustration_
 

@@ -4,7 +4,7 @@ date: 2021-10-07
 excerpt: The possibilities are endless!
 ---
 
-![chatbot](img/chatbot.png)
+![chatbot](/chatbot.png)
 
 _Chatbot_
 
@@ -12,7 +12,7 @@ There are numerous applications for automatic code generation that may be implem
 
 Second, AIs are showing great promise in terms of tracking human coders' activities and helping them work more efficiently.
 
-![nlp tech](img/nlp-tech.png)
+![nlp tech](/nlp-tech.png)
 
 _NLP technology_
 
