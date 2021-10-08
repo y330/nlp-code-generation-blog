@@ -1,7 +1,7 @@
 ---
 title: Limitations
 date: 2021-10-07
-excerpt: NLP Code Generation will never replace developers... or will it?
+excerpt: NLP Code Generation will never replace developers - or will it?
 ---
 
 ![illustration](/img/limitations.png)
@@ -16,4 +16,4 @@ Second, tools like Aroma and OpenAI's GPT-3 language model can generate simple p
 
 However, GitHub Copilot, a new NLP source code generator developed by GitHub and OpenAI shows highly impressive results, and I say this with first hand experience using the tool. Copilot seems to be the direction the future.
 
-[Read the next post: GitHub Copilot - NLP for code generation🎯](nlp-for-code-generation-with-copilot)
+[Read the next post: GitHub Copilot - NLP for code generation](nlp-for-code-generation-with-copilot)

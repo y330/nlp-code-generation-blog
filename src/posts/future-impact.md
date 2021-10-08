@@ -18,4 +18,4 @@ _NLP technology_
 
 Additionally, this technology can be leveraged in fields besides software development. New types of creative writing could be made possible with AI code generation. The possibilities are near endless with applications that can be implemented into everyday life, ranging from business solutions to creating chatbots that break ground in text-based conversations.
 
-[Read the next post ⏭](limitations)
+[Read the next post >>](limitations)
