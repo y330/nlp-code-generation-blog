@@ -24,7 +24,7 @@
     NLP for Code Generation - ICS4U ISA
   </h1>
   <p class="info">{posts.length} posts.</p>
-  <img src="/illustration.png" alt="illustration" />
+  <img src="/img/illustration.png" alt="illustration" />
   {#each posts as post}
     <a href={`${base}/${post.slug}`}>
       <h2 class="title">{post.metadata.title}</h2>

@@ -38,5 +38,11 @@
     p {
       color: white;
     }
+    a {
+      color: snow;
+      &:hover {
+        color: rgb(255, 158, 126);
+      }
+    }
   }
 </style>

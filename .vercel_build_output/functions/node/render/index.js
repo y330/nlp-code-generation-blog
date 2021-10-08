@@ -57587,9 +57587,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-b4c5d2ff.js",
+      file: assets + "/_app/start-777f97f9.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-b4c5d2ff.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
+      js: [assets + "/_app/start-777f97f9.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
     },
     fetched: void 0,
     floc: false,
@@ -57619,7 +57619,7 @@ function init(settings = default_settings) {
 var d = (s2) => s2.replace(/%23/g, "#").replace(/%3[Bb]/g, ";").replace(/%2[Cc]/g, ",").replace(/%2[Ff]/g, "/").replace(/%3[Ff]/g, "?").replace(/%3[Aa]/g, ":").replace(/%40/g, "@").replace(/%26/g, "&").replace(/%3[Dd]/g, "=").replace(/%2[Bb]/g, "+").replace(/%24/g, "$");
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "chart.png", "size": 123629, "type": "image/png" }, { "file": "chatbot.png", "size": 90964, "type": "image/png" }, { "file": "copilot-demo.png", "size": 86172, "type": "image/png" }, { "file": "diagram.png", "size": 688657, "type": "image/png" }, { "file": "favicon.ico", "size": 1150, "type": "image/vnd.microsoft.icon" }, { "file": "illustration.png", "size": 333669, "type": "image/png" }, { "file": "intellisense-symbols.png", "size": 43030, "type": "image/png" }, { "file": "intellisense.gif", "size": 27596, "type": "image/gif" }, { "file": "limitations.png", "size": 92539, "type": "image/png" }, { "file": "nlp-tech.png", "size": 65308, "type": "image/png" }, { "file": "robots.txt", "size": 67, "type": "text/plain" }],
+  assets: [{ "file": "favicon.ico", "size": 1150, "type": "image/vnd.microsoft.icon" }, { "file": "img/chart.png", "size": 123629, "type": "image/png" }, { "file": "img/chatbot.png", "size": 90964, "type": "image/png" }, { "file": "img/copilot-demo.png", "size": 86172, "type": "image/png" }, { "file": "img/diagram.png", "size": 688657, "type": "image/png" }, { "file": "img/illustration.png", "size": 333669, "type": "image/png" }, { "file": "img/intellisense-symbols.png", "size": 43030, "type": "image/png" }, { "file": "img/intellisense.gif", "size": 27596, "type": "image/gif" }, { "file": "img/limitations.png", "size": 92539, "type": "image/png" }, { "file": "img/nlp-tech.png", "size": 65308, "type": "image/png" }, { "file": "robots.txt", "size": 67, "type": "text/plain" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -57685,7 +57685,7 @@ var module_lookup = {
     return _slug_;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a45c6eca.js", "css": ["assets/pages/__layout.svelte-2f082c88.css"], "js": ["pages/__layout.svelte-a45c6eca.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-430e8fcd.js", "css": [], "js": ["error.svelte-430e8fcd.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-78617005.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-78617005.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-fe8bc76c.js", "css": [], "js": ["pages/about.svelte-fe8bc76c.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-d806b5e1.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-d806b5e1.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-9180439a.js", "css": ["assets/pages/__layout.svelte-8a37bf59.css"], "js": ["pages/__layout.svelte-9180439a.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-430e8fcd.js", "css": [], "js": ["error.svelte-430e8fcd.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae3bf563.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-ae3bf563.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-d40b0d17.js", "css": [], "js": ["pages/about.svelte-d40b0d17.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-d806b5e1.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-d806b5e1.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -57783,8 +57783,8 @@ var PageTransitions = create_ssr_component(($$result, $$props, $$bindings, slots
 <div>${slots.default ? slots.default({}) : ``}</div>`;
 });
 var css$3 = {
-  code: "div.svelte-1rqu27.svelte-1rqu27{padding-top:1em;padding-bottom:0;margin-bottom:0;margin-top:5em;border-radius:1em;height:100px;background-color:#ff3e00;padding-inline:4vw}div.svelte-1rqu27 em.svelte-1rqu27{color:snow;font-weight:lighter}div.svelte-1rqu27 p.svelte-1rqu27{color:white}",
-  map: '{"version":3,"file":"Footer.svelte","sources":["Footer.svelte"],"sourcesContent":["<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<div>\\r\\n  <em>This is a blog made for the ICS4U Computer Science course.</em>\\r\\n\\r\\n  <br />\\r\\n\\r\\n  <b\\r\\n    ><p color=\\"white\\">\\r\\n      Copyright \xA9 2021 <a href=\\"https://yonah.ml\\" title=\\"My website\\"\\r\\n        >Yonah Aviv</a\\r\\n      >. All rights reserved.\\r\\n    </p>\\r\\n  </b>\\r\\n</div>\\r\\n\\r\\n<style lang=\\"scss\\">div {\\n  padding-top: 1em;\\n  padding-bottom: 0;\\n  margin-bottom: 0;\\n  margin-top: 5em;\\n  border-radius: 1em;\\n  height: 100px;\\n  background-color: #ff3e00;\\n  padding-inline: 4vw;\\n}\\ndiv em {\\n  color: snow;\\n  font-weight: lighter;\\n}\\ndiv p {\\n  color: white;\\n}</style>\\r\\n"],"names":[],"mappings":"AAuBmB,GAAG,4BAAC,CAAC,AACtB,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,CAAC,CACjB,aAAa,CAAE,CAAC,CAChB,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,OAAO,CACzB,cAAc,CAAE,GAAG,AACrB,CAAC,AACD,iBAAG,CAAC,EAAE,cAAC,CAAC,AACN,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,OAAO,AACtB,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,KAAK,AACd,CAAC"}'
+  code: "div.svelte-3ut88d.svelte-3ut88d{padding-top:1em;padding-bottom:0;margin-bottom:0;margin-top:5em;border-radius:1em;height:100px;background-color:#ff3e00;padding-inline:4vw}div.svelte-3ut88d em.svelte-3ut88d{color:snow;font-weight:lighter}div.svelte-3ut88d p.svelte-3ut88d{color:white}div.svelte-3ut88d a.svelte-3ut88d{color:snow}div.svelte-3ut88d a.svelte-3ut88d:hover{color:#ff9e7e}",
+  map: '{"version":3,"file":"Footer.svelte","sources":["Footer.svelte"],"sourcesContent":["<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<div>\\r\\n  <em>This is a blog made for the ICS4U Computer Science course.</em>\\r\\n\\r\\n  <br />\\r\\n\\r\\n  <b\\r\\n    ><p color=\\"white\\">\\r\\n      Copyright \xA9 2021 <a href=\\"https://yonah.ml\\" title=\\"My website\\"\\r\\n        >Yonah Aviv</a\\r\\n      >. All rights reserved.\\r\\n    </p>\\r\\n  </b>\\r\\n</div>\\r\\n\\r\\n<style lang=\\"scss\\">div {\\n  padding-top: 1em;\\n  padding-bottom: 0;\\n  margin-bottom: 0;\\n  margin-top: 5em;\\n  border-radius: 1em;\\n  height: 100px;\\n  background-color: #ff3e00;\\n  padding-inline: 4vw;\\n}\\ndiv em {\\n  color: snow;\\n  font-weight: lighter;\\n}\\ndiv p {\\n  color: white;\\n}\\ndiv a {\\n  color: snow;\\n}\\ndiv a:hover {\\n  color: #ff9e7e;\\n}</style>\\r\\n"],"names":[],"mappings":"AAuBmB,GAAG,4BAAC,CAAC,AACtB,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,CAAC,CACjB,aAAa,CAAE,CAAC,CAChB,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,OAAO,CACzB,cAAc,CAAE,GAAG,AACrB,CAAC,AACD,iBAAG,CAAC,EAAE,cAAC,CAAC,AACN,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,OAAO,AACtB,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,KAAK,AACd,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,IAAI,AACb,CAAC,AACD,iBAAG,CAAC,eAAC,MAAM,AAAC,CAAC,AACX,KAAK,CAAE,OAAO,AAChB,CAAC"}'
 };
 var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$3);
@@ -57797,11 +57797,11 @@ var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <br>
 <br>
 <br>
-<div class="${"svelte-1rqu27"}"><em class="${"svelte-1rqu27"}">This is a blog made for the ICS4U Computer Science course.</em>
+<div class="${"svelte-3ut88d"}"><em class="${"svelte-3ut88d"}">This is a blog made for the ICS4U Computer Science course.</em>
 
   <br>
 
-  <b><p color="${"white"}" class="${"svelte-1rqu27"}">Copyright \xA9 2021 <a href="${"https://yonah.ml"}" title="${"My website"}">Yonah Aviv</a>. All rights reserved.
+  <b><p color="${"white"}" class="${"svelte-3ut88d"}">Copyright \xA9 2021 <a href="${"https://yonah.ml"}" title="${"My website"}" class="${"svelte-3ut88d"}">Yonah Aviv</a>. All rights reserved.
     </p></b>
 </div>`;
 });
@@ -57851,7 +57851,7 @@ var error = /* @__PURE__ */ Object.freeze({
 });
 var css$1 = {
   code: "h1.svelte-1i98gyn{margin-bottom:0}h2.title.svelte-1i98gyn{margin-top:32px;margin-bottom:0}h2.title.svelte-1i98gyn:hover{color:#40b3ff}p.svelte-1i98gyn{color:#555;margin:0}",
-  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \\"$app/paths\\";\\n\\n  export async function load({ fetch }) {\\n    const posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let posts;\\n<\/script>\\n\\n<svelte:head>\\n  <title>Home</title>\\n</svelte:head>\\n\\n<div>\\n  <h1\\n    style=\\"font-weight: 600; font-family: \'Gill Sans\', \'Gill Sans MT\', Calibri, \'Trebuchet MS\', sans-serif; padding-bottom: 2vw;\\"\\n  >\\n    NLP for Code Generation - ICS4U ISA\\n  </h1>\\n  <p class=\\"info\\">{posts.length} posts.</p>\\n  <img src=\\"static/illustration.png\\" alt=\\"illustration\\" />\\n  {#each posts as post}\\n    <a href={`${base}/${post.slug}`}>\\n      <h2 class=\\"title\\">{post.metadata.title}</h2>\\n      <p>{post.metadata.excerpt}</p>\\n    </a>\\n  {/each}\\n</div>\\n\\n<style lang=\\"scss\\">h1 {\\n  margin-bottom: 0;\\n}\\n\\nh2.title {\\n  margin-top: 32px;\\n  margin-bottom: 0;\\n}\\nh2.title:hover {\\n  color: #40b3ff;\\n}\\n\\np {\\n  color: #555;\\n  margin: 0;\\n}</style>\\n"],"names":[],"mappings":"AAmCmB,EAAE,eAAC,CAAC,AACrB,aAAa,CAAE,CAAC,AAClB,CAAC,AAED,EAAE,MAAM,eAAC,CAAC,AACR,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,CAAC,AAClB,CAAC,AACD,EAAE,qBAAM,MAAM,AAAC,CAAC,AACd,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,CAAC,eAAC,CAAC,AACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,AACX,CAAC"}'
+  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \\"$app/paths\\";\\n\\n  export async function load({ fetch }) {\\n    const posts = await fetch(`${base}/index.json`).then((r) => r.json());\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let posts;\\n<\/script>\\n\\n<svelte:head>\\n  <title>Home</title>\\n</svelte:head>\\n\\n<div>\\n  <h1\\n    style=\\"font-weight: 600; font-family: \'Gill Sans\', \'Gill Sans MT\', Calibri, \'Trebuchet MS\', sans-serif; padding-bottom: 2vw;\\"\\n  >\\n    NLP for Code Generation - ICS4U ISA\\n  </h1>\\n  <p class=\\"info\\">{posts.length} posts.</p>\\n  <img src=\\"/img/illustration.png\\" alt=\\"illustration\\" />\\n  {#each posts as post}\\n    <a href={`${base}/${post.slug}`}>\\n      <h2 class=\\"title\\">{post.metadata.title}</h2>\\n      <p>{post.metadata.excerpt}</p>\\n    </a>\\n  {/each}\\n</div>\\n\\n<style lang=\\"scss\\">h1 {\\n  margin-bottom: 0;\\n}\\n\\nh2.title {\\n  margin-top: 32px;\\n  margin-bottom: 0;\\n}\\nh2.title:hover {\\n  color: #40b3ff;\\n}\\n\\np {\\n  color: #555;\\n  margin: 0;\\n}</style>\\n"],"names":[],"mappings":"AAmCmB,EAAE,eAAC,CAAC,AACrB,aAAa,CAAE,CAAC,AAClB,CAAC,AAED,EAAE,MAAM,eAAC,CAAC,AACR,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,CAAC,AAClB,CAAC,AACD,EAAE,qBAAM,MAAM,AAAC,CAAC,AACd,KAAK,CAAE,OAAO,AAChB,CAAC,AAED,CAAC,eAAC,CAAC,AACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,AACX,CAAC"}'
 };
 async function load$1({ fetch: fetch2 }) {
   const posts = await fetch2(`${base}/index.json`).then((r) => r.json());
@@ -57867,7 +57867,7 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 <div><h1 style="${"font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-bottom: 2vw;"}" class="${"svelte-1i98gyn"}">NLP for Code Generation - ICS4U ISA
   </h1>
   <p class="${"info svelte-1i98gyn"}">${escape(posts.length)} posts.</p>
-  <img src="${"static/illustration.png"}" alt="${"illustration"}">
+  <img src="${"/img/illustration.png"}" alt="${"illustration"}">
   ${each(posts, (post) => `<a${add_attribute("href", `${base}/${post.slug}`, 0)}><h2 class="${"title svelte-1i98gyn"}">${escape(post.metadata.title)}</h2>
       <p class="${"svelte-1i98gyn"}">${escape(post.metadata.excerpt)}</p>
     </a>`)}
@@ -57888,7 +57888,13 @@ var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   it can enhance the lives of developers and those learning computer science. A
   special focus is put on Github Copilot, a promising AI tool that generates
   code from natural language.
-</p>`;
+</p>
+<h3>Sources Used</h3>
+<a href="${"https://stackoverflow.blog/2020/09/16/neural-networks-could-help-computers-code-themselves-do-we-still-need-human-coders/"}">stackoverflow.blog/2020/09/16/neural-networks-could-help-computers-code-themselves-do-we-still-need-human-coders/</a>
+<br>
+<a href="${"\nhttps://www.wired.com/story/ai-latest-trick-writing-computer-code/"}">www.wired.com/story/ai-latest-trick-writing-computer-code/</a>
+<br>
+<a href="${"https://drops.dagstuhl.de/opus/volltexte/2017/7135/pdf/LIPIcs-SNAPL-2017-4.pdf"}">drops.dagstuhl.de/opus/volltexte/2017/7135/pdf/LIPIcs-SNAPL-2017-4.pdf</a>`;
 });
 var about = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -57897,7 +57903,7 @@ var about = /* @__PURE__ */ Object.freeze({
 });
 var css = {
   code: "h1.title.svelte-1mgzh8t{margin-bottom:0}",
-  map: '{"version":3,"file":"[slug].svelte","sources":["[slug].svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \'$app/paths\';\\n  export async function load({ page, fetch }) {\\n    const slug = page.params.slug;\\n    const post = await fetch(`${base}/${slug}.json`)\\n        .then((r) => r.json());\\n    return {\\n      props: { post }\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let post;\\n  let date = post.metadata.date.toUpperCase();\\n<\/script>\\n\\n<svelte:head>\\n  <title>{post.metadata.title}</title>\\n</svelte:head>\\n\\n<h1 class=\\"title\\">{post.metadata.title}</h1>\\n<p class=\\"info\\"><a href=\\"https://yonah.ml\\">Yonah Aviv</a> {date}</p>\\n{@html post.content}\\n\\n<style lang=\\"scss\\">h1.title {\\n  margin-bottom: 0;\\n}</style>"],"names":[],"mappings":"AAyBmB,EAAE,MAAM,eAAC,CAAC,AAC3B,aAAa,CAAE,CAAC,AAClB,CAAC"}'
+  map: '{"version":3,"file":"[slug].svelte","sources":["[slug].svelte"],"sourcesContent":["<script context=\\"module\\">\\n  import { base } from \\"$app/paths\\";\\n  export async function load({ page, fetch }) {\\n    const slug = page.params.slug;\\n    const post = await fetch(`${base}/${slug}.json`).then((r) => r.json());\\n    return {\\n      props: { post },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  export let post;\\n  let date = post.metadata.date.toUpperCase();\\n<\/script>\\n\\n<svelte:head>\\n  <title>{post.metadata.title}</title>\\n</svelte:head>\\n\\n<h1 class=\\"title\\">{post.metadata.title}</h1>\\n<p class=\\"info\\"><a href=\\"https://yonah.ml\\">Yonah Aviv</a> {date}</p>\\n{@html post.content}\\n\\n<style lang=\\"scss\\">h1.title {\\n  margin-bottom: 0;\\n}</style>\\n"],"names":[],"mappings":"AAwBmB,EAAE,MAAM,eAAC,CAAC,AAC3B,aAAa,CAAE,CAAC,AAClB,CAAC"}'
 };
 async function load({ page, fetch: fetch2 }) {
   const slug = page.params.slug;

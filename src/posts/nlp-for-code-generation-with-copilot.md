@@ -4,13 +4,13 @@ date: 2021-10-07
 excerpt: Copilot converts Comments -> Code🤯
 ---
 
-![diagram](/diagram.png)
+![diagram](/img/diagram.png)
 
 _Copilot_
 
 As we established earlier, NLP for code generation can fundamentally increase development speed for software developers. Copilot, a beta AI code generation tool that can be used for free seems to add creativity to code generation. You can add code comments(i.e., instruct the computer on how the program will run in plain english or coding challenges) and the Copilot tool will generate full on solutions to these problems. This essentially gets rid of the time wasted developing unnecessary code. Copilot can be used through a free extension for Visual Studio Code, a cross-platform code editor developed by Microsoft, but only a select number of users are allowed access as it is in beta.
 
-![chart](/chart.png)
+![chart](/img/chart.png)
 
 _Process of pseudo code to source code conversion using nlp_
 
@@ -18,7 +18,7 @@ From a software developer’s perspective, Copilot’s benefits come from this: 
 
 The applications for this are endless, ranging from training the machine to do other tasks to building other AI Tools. This can be further developed to have a sort of “Generative” mode, where the machine is taught the process of creating the code itself.
 
-![copilot](/copilot-demo.png)
+![copilot](/img/copilot-demo.png)
 
 _Copilot in action_
 
