@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "rm -rf build && svelte-kit build",
+		"build": "svelte-kit build",
 		"start": "svelte-kit preview",
-		"deploy": "pnpm run build && pnpx vercel -d .svelte-kit/static/build -t true"
+		"deploy": "pnpm run build && pnpx vercel -d .svelte-kit/build -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "next",
@@ -25,11 +25,5 @@
 		"unified": "^9.2.1",
 		"vite": "^2.1.0"
 	},
-	"type": "module",
-	"engines": {
-		"node": ">= 12.17.0"
-	},
-	"dependencies": {
-		"@vercel/node": "^1.9.1"
-	}
+	"type": "module"
 }
