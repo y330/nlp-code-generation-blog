@@ -1,7 +1,7 @@
 ---
 title: NLP code generation with Copilot a replacement for old tools
 date: 2021-10-07
-excerpt: Copilot converts Comments -> Code🤯
+excerpt: Copilot  converts Comments -> Code🤯
 ---
 
 ![diagram](/img/diagram.png)
