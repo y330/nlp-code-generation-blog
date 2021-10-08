@@ -1,5 +1,6 @@
 import sveltePreprocess from 'svelte-preprocess'
 import vercel from '@sveltejs/adapter-vercel'
+import static_adapter from '@sveltejs/kit/static-adapter'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,8 +11,8 @@ const config = {
 		// By default, `npm run build` will create a standard Node app.
 		// You can create optimized builds for different platforms by
 		// specifying a different adapter
-		adapter: vercel(),
-		// adapter: static_adapter(),
+		// adapter: vercel(),
+		adapter: static_adapter(),
 		// Comment the paths if wants to run in dev mode.
 		paths: {
 			// base: '',
