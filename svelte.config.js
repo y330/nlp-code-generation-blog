@@ -1,5 +1,5 @@
-import sveltePreprocess from "svelte-preprocess";
-import vercel from "@sveltejs/adapter-vercel";
+import sveltePreprocess from "svelte-preprocess"
+import vercel from "@sveltejs/adapter-vercel"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,10 +16,15 @@ const config = {
     paths: {
       // base: '',
       // assets: './img/'
-    }
+    },
+    prerender: {
+      entries: [
+      ]
+    },
+    trailingSlash: "never"
 
     // hydrate the <div id="svelte"> element in src/app.html
   }
-};
+}
 
-export default config;
+export default config

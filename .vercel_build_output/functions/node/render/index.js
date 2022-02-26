@@ -57587,9 +57587,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-777f97f9.js",
+      file: assets + "/_app/start-8393699b.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-777f97f9.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
+      js: [assets + "/_app/start-8393699b.js", assets + "/_app/chunks/vendor-0dd5a8e5.js", assets + "/_app/chunks/paths-28a87002.js"]
     },
     fetched: void 0,
     floc: false,
@@ -57611,7 +57611,7 @@ function init(settings = default_settings) {
     service_worker: null,
     router: true,
     ssr: true,
-    target: "#svelte",
+    target: null,
     template,
     trailing_slash: "never"
   };
@@ -57685,7 +57685,7 @@ var module_lookup = {
     return _slug_;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-9180439a.js", "css": ["assets/pages/__layout.svelte-8a37bf59.css"], "js": ["pages/__layout.svelte-9180439a.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-430e8fcd.js", "css": [], "js": ["error.svelte-430e8fcd.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae3bf563.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-ae3bf563.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-d40b0d17.js", "css": [], "js": ["pages/about.svelte-d40b0d17.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-d806b5e1.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-d806b5e1.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-7afdb3a6.js", "css": ["assets/pages/__layout.svelte-8a37bf59.css"], "js": ["pages/__layout.svelte-7afdb3a6.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-92d0904d.js", "css": [], "js": ["error.svelte-92d0904d.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-b774eedf.js", "css": ["assets/pages/index.svelte-bbaf3b71.css"], "js": ["pages/index.svelte-b774eedf.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-7649a4f6.js", "css": [], "js": ["pages/about.svelte-7649a4f6.js", "chunks/vendor-0dd5a8e5.js"], "styles": [] }, "src/routes/[slug].svelte": { "entry": "pages/[slug].svelte-e39edd75.js", "css": ["assets/pages/[slug].svelte-ab5c8046.css"], "js": ["pages/[slug].svelte-e39edd75.js", "chunks/vendor-0dd5a8e5.js", "chunks/paths-28a87002.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -57784,7 +57784,7 @@ var PageTransitions = create_ssr_component(($$result, $$props, $$bindings, slots
 });
 var css$3 = {
   code: "div.svelte-3ut88d.svelte-3ut88d{padding-top:1em;padding-bottom:0;margin-bottom:0;margin-top:5em;border-radius:1em;height:100px;background-color:#ff3e00;padding-inline:4vw}div.svelte-3ut88d em.svelte-3ut88d{color:snow;font-weight:lighter}div.svelte-3ut88d p.svelte-3ut88d{color:white}div.svelte-3ut88d a.svelte-3ut88d{color:snow}div.svelte-3ut88d a.svelte-3ut88d:hover{color:#ff9e7e}",
-  map: '{"version":3,"file":"Footer.svelte","sources":["Footer.svelte"],"sourcesContent":["<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<br />\\r\\n<div>\\r\\n  <em>This is a blog made for the ICS4U Computer Science course.</em>\\r\\n\\r\\n  <br />\\r\\n\\r\\n  <b\\r\\n    ><p color=\\"white\\">\\r\\n      Copyright \xA9 2021 <a href=\\"https://yonah.ml\\" title=\\"My website\\"\\r\\n        >Yonah Aviv</a\\r\\n      >. All rights reserved.\\r\\n    </p>\\r\\n  </b>\\r\\n</div>\\r\\n\\r\\n<style lang=\\"scss\\">div {\\n  padding-top: 1em;\\n  padding-bottom: 0;\\n  margin-bottom: 0;\\n  margin-top: 5em;\\n  border-radius: 1em;\\n  height: 100px;\\n  background-color: #ff3e00;\\n  padding-inline: 4vw;\\n}\\ndiv em {\\n  color: snow;\\n  font-weight: lighter;\\n}\\ndiv p {\\n  color: white;\\n}\\ndiv a {\\n  color: snow;\\n}\\ndiv a:hover {\\n  color: #ff9e7e;\\n}</style>\\r\\n"],"names":[],"mappings":"AAuBmB,GAAG,4BAAC,CAAC,AACtB,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,CAAC,CACjB,aAAa,CAAE,CAAC,CAChB,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,OAAO,CACzB,cAAc,CAAE,GAAG,AACrB,CAAC,AACD,iBAAG,CAAC,EAAE,cAAC,CAAC,AACN,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,OAAO,AACtB,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,KAAK,AACd,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,IAAI,AACb,CAAC,AACD,iBAAG,CAAC,eAAC,MAAM,AAAC,CAAC,AACX,KAAK,CAAE,OAAO,AAChB,CAAC"}'
+  map: '{"version":3,"file":"Footer.svelte","sources":["Footer.svelte"],"sourcesContent":["<br />\\n<br />\\n<br />\\n<br />\\n<br />\\n<br />\\n<br />\\n<br />\\n<br />\\n<div>\\n  <em>This is a blog made for the ICS4U Computer Science course.</em>\\n\\n  <br />\\n\\n  <b\\n    ><p color=\\"white\\">\\n      Copyright \xA9 2021 <a href=\\"https://yonah.ml\\" title=\\"My website\\"\\n        >Yonah Aviv</a\\n      >. All rights reserved.\\n    </p>\\n  </b>\\n</div>\\n\\n<style lang=\\"scss\\">div {\\n  padding-top: 1em;\\n  padding-bottom: 0;\\n  margin-bottom: 0;\\n  margin-top: 5em;\\n  border-radius: 1em;\\n  height: 100px;\\n  background-color: #ff3e00;\\n  padding-inline: 4vw;\\n}\\ndiv em {\\n  color: snow;\\n  font-weight: lighter;\\n}\\ndiv p {\\n  color: white;\\n}\\ndiv a {\\n  color: snow;\\n}\\ndiv a:hover {\\n  color: #ff9e7e;\\n}</style>\\n"],"names":[],"mappings":"AAuBmB,GAAG,4BAAC,CAAC,AACtB,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,CAAC,CACjB,aAAa,CAAE,CAAC,CAChB,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,OAAO,CACzB,cAAc,CAAE,GAAG,AACrB,CAAC,AACD,iBAAG,CAAC,EAAE,cAAC,CAAC,AACN,KAAK,CAAE,IAAI,CACX,WAAW,CAAE,OAAO,AACtB,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,KAAK,AACd,CAAC,AACD,iBAAG,CAAC,CAAC,cAAC,CAAC,AACL,KAAK,CAAE,IAAI,AACb,CAAC,AACD,iBAAG,CAAC,eAAC,MAAM,AAAC,CAAC,AACX,KAAK,CAAE,OAAO,AAChB,CAAC"}'
 };
 var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$3);
