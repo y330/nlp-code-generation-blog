@@ -1,6 +1,15 @@
 {
   "name": "nlp-code-generation-blog-ics-isa",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": {
+    "name": "Yonah Aviv",
+    "email": "avivyonah@gmail.com",
+    "url": "https://yonah.ml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y330/nlp-code-generation-blog.git"
+  },
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -25,6 +34,11 @@
     "vite": "^2.1.0"
   },
   "type": "module",
-  "keywords": [],
-  "description": ""
+  
+  "keywords": [
+    "svelte",
+    "svelte-kit",
+    "nlp-blog"
+  ],
+  "description": "blog on NLP for code generation"
 }

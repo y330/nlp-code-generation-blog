@@ -1,6 +1,9 @@
-# ICS4U ISA - Yonah Aviv
+# BLOG: NLP CODE GENERATION
 
-temp Link to site (dev) is https://o8wgy.sse.codesandbox.io/
+## ICS4U ISA - Yonah Aviv
+
+
+View blog @ [nlp-code-generation-blog.herokuapp.com](https://nlp-code-generation-blog.herokuapp.com/)
 
 This blog is on the use of NLP for automatic source code generations and how it can enhance the lives of developers and those learning computer science. A special focus is put on Github Copilot, a promising AI tool that generates code from natural language.
 
@@ -12,4 +15,6 @@ This blog is on the use of NLP for automatic source code generations and how it 
 
 [Research paper](drops.dagstuhl.de/opus/volltexte/2017/7135/pdf/LIPIcs-SNAPL-2017-4.pdf)
 
-copyright (C) 2022 Yonah Aviv
+----
+
+Copyright (C) 2022 Yonah Aviv

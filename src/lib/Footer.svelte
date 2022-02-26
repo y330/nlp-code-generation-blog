@@ -14,7 +14,7 @@
 
   <b
     ><p color="white">
-      Copyright © 2021 <a href="https://yonah.ml" title="My website"
+      Copyright © 2022 <a href="https://yonah.ml" title="My website"
         >Yonah Aviv</a
       >. All rights reserved.
     </p>
