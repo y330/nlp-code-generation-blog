@@ -1,7 +1,6 @@
 <!--Great Github Corner from https://tholman.com/github-corners-->
 <a
   href="https://github.com/y330/nlp-code-generation-blog"
-  href="https://github.com/y330/nlp-code-generation-blog"
   class="github-corner"
   aria-label="View source on GitHub"
 >
